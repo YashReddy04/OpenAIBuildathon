@@ -1,0 +1,76 @@
+# Byte-compiled Python / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+myvenv/
+.myvenv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit secrets (VERY IMPORTANT)
+.streamlit/secrets.toml
+config.yaml
+.config.yaml
+
+# Local environment variables
+.env
+
+# IDE / editor folders
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python MKDocs cache
+site/
+
+# Jupyter checkpoints
+.ipynb_checkpoints
+
+# Log files
+*.log
+
+# Data cache
+*.sqlite
+*.db
+
+# pdf temp
+*.tmp
+*.temp
+
+# compiled
+*.so
+*.dll
+*.dylib
+
+# Chroma DB default folder (if created locally)
+chroma/
+vectorstores/
+
+# Generated uploads or documents (optional)
+uploads/
+user_files/
+
+# Streamlit static cache
+.streamlit/cache/
+
+# Do not track Streamlit auto-generated
+**/.streamlit/credentials.toml
+**/.streamlit/logs/
+
+# Windows project metadata
+desktop.ini
+
+# PyInstaller
+build/
+dist/
+*.spec
